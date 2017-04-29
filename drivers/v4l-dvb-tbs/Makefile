@@ -8,7 +8,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=v4l-dvb-tbs
-PKG_REV:=0577cbdadbc5b23d1ffd4406c427a0f2dec98f09
+PKG_REV:=da3e36f759fba364d27e77e0c34ef40f5478a43c
 PKG_VERSION:=$(PKG_REV)
 PKG_RELEASE:=1
 
