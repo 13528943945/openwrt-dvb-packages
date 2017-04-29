@@ -27,8 +27,8 @@ define Package/v4l-dvb-tbs
   SECTION:=multimedia
   CATEGORY:=Multimedia
 #  DEPENDS:=kmod-dvb-core +@KERNEL_KALLSYMS
-  DEPENDS:=kmod-usb-core
-  TITLE:=V4L-dvb-tbs
+  DEPENDS:=+kmod-usb-core +kmod-dma-buf +kmod-firewire +kmod-input-core +kmod-regmap +kmod-sound-core
+  TITLE:=V4L-DVB-TBS
   URL:=http://www.linuxtv.org/
 endef
 
