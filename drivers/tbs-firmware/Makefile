@@ -1,16 +1,15 @@
 #
-# Copyright (C) 2011 OpenWrt.org
+# Copyright (C) 2018 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v2.
-# See /LICENSE for more information.
+# See LICENSE for more information.
 #
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=v4l-dvb-tbs
-PKG_REV:=da3e36f759fba364d27e77e0c34ef40f5478a43c
-PKG_VERSION:=$(PKG_REV)
-PKG_RELEASE:=1
+PKG_NAME:=tbs-firmware
+PKG_VERSION:=1.0
+PKG_RELEASE:=3
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=$(PKG_REV)
@@ -33,7 +32,7 @@ define Package/v4l-dvb-tbs
 endef
 
 define Package/v4l-dvb-tbs/description
-  Live development version of V4L and DVB drivers for TBS tuners
+  TBS proprietary firmware
 endef
 
 MAKE_VARS += \
